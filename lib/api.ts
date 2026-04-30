@@ -255,7 +255,7 @@ export async function updateLoggedUserData(opts: {
 }) {
   return apiFetch<any>("/users/updateMe/", {
     method: "PUT",
-    headers: { token },
+    headers: { token: "" },
     body: JSON.stringify({
       ...(opts.name ? { name: opts.name } : {}),
       ...(opts.email ? { email: opts.email } : {}),
