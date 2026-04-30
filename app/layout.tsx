@@ -10,7 +10,7 @@ import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
   title: {
-    default: "FreshCart – Fresh Products Delivered",
+    default: "FreshCart",
     template: "%s | FreshCart",
   },
   description: "FreshCart – Your one-stop shop for fresh groceries.",
